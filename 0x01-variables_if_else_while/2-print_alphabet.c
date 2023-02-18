@@ -1,19 +1,18 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
 
-
 /**
- * main - Print a text according number
- * Return: Always (success)
- *
+ * main - prints the alphabetic
+ * Return: Always (Success)
  */
 
 int main(void)
 
 {
-	int n, lastd;
+	char c;
 
-	srand
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
+	putchar('\n');
+	return (0);
+
+}
